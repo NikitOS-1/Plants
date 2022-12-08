@@ -1,3 +1,32 @@
-h1 {
-  color: aquamarine;
+@import url("../fonts/fonts.css");
+body .container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body .container .row {
+  display: flex;
+  width: 1920px;
+  max-width: 1920px;
+}
+body .container .row [class*=col-] {
+  padding: 0 215px;
+}
+body .container .row .col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+body .container .row .col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+body .container .row .col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+body .container .row .col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+body .header {
+  background: #0C4B35;
 }/*# sourceMappingURL=style.css.map */
