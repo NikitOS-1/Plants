@@ -1,32 +1,69 @@
 @import url("../fonts/fonts.css");
-body .container {
-  padding: 0 15px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1920px;
   margin: 0 auto;
 }
-body .container .row {
+.container .header {
+  padding: 0px 251px;
   display: flex;
-  width: 1920px;
-  max-width: 1920px;
-}
-body .container .row [class*=col-] {
-  padding: 0 215px;
-}
-body .container .row .col-3 {
-  flex: 0 0 25%;
-  max-width: 25%;
-}
-body .container .row .col-6 {
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-body .container .row .col-9 {
-  flex: 0 0 75%;
-  max-width: 75%;
-}
-body .container .row .col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-body .header {
+  align-items: center;
+  justify-content: space-between;
+  height: 59px;
   background: #0C4B35;
+  /* Card / Paragraph Font */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* Main / BG (white color) */
+  color: #FFFFFF;
+}
+.container .header .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .header .info .email {
+  display: flex;
+  align-items: center;
+}
+.container .header .info .email img {
+  margin-right: 10px;
+}
+.container .header .info .email p {
+  margin-right: 30px;
+}
+.container .header .info .phone {
+  display: flex;
+  align-items: center;
+}
+.container .header .info .phone img {
+  margin-right: 10px;
+}
+.container .header .info .phone p {
+  margin-right: 30px;
+}
+.container .header .info .location {
+  display: flex;
+  align-items: center;
+}
+.container .header .info .location img {
+  margin-right: 10px;
+}
+.container .header .info .location p {
+  margin-right: 30px;
+}
+.container .header .language {
+  display: flex;
+  align-items: center;
+}
+.container .header .language p {
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */

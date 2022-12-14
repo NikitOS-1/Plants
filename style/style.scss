@@ -1,48 +1,93 @@
 @import url("../fonts/fonts.css");
 
-body {
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
 
-    // ---------------------grid--------------------
-    .container {
-        padding: 0 15px;
-        margin: 0 auto;
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
 
-        .row {
+    .header {
+        padding: 0px 251px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 59px;
+        background: #0C4B35;
+        /* Card / Paragraph Font */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        /* Main / BG (white color) */
+        color: #FFFFFF;
+
+        .info {
             display: flex;
-            width: 1920px;
-            max-width: 1920px;
+            align-items: center;
+            justify-content: space-between;
 
-            [class*="col-"] {
-                padding: 0 215px;
+            .email {
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin-right: 30px;
+                }
             }
 
-            .col-3 {
-                flex: 0 0 25%;
-                max-width: 25%;
+            .phone {
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin-right: 30px;
+                }
             }
 
-            .col-6 {
-                flex: 0 0 50%;
-                max-width: 50%;
-            }
+            .location {
+                display: flex;
+                align-items: center;
 
-            .col-9 {
-                flex: 0 0 75%;
-                max-width: 75%;
-            }
+                img {
+                    margin-right: 10px;
+                }
 
-            .col-12 {
-                flex: 0 0 100%;
-                max-width: 100%;
+                p {
+                    margin-right: 30px;
+                }
             }
         }
+
+        .language {
+            display: flex;
+            align-items: center;
+
+            p {
+                margin-right: 5px;
+            }
+        }
+
     }
-
-    //----------------------header--------------------
-    .header {
-        background: #0C4B35;
-
-        
-    }
-
 }
+
+
+// -----------------------adaptive-------------------------
+// ----------------------header--------------------
+// Extra small <576px	
+// Small ≥576px	540px
+// Medium ≥768px	720px
+// Large ≥992px960px
+// @media screen and (max-width: 375px) 
