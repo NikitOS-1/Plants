@@ -11,74 +11,81 @@
     margin: 0 auto;
 
     .header {
-        padding: 0px 251px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 59px;
-        background: #0C4B35;
-        /* Card / Paragraph Font */
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        /* Main / BG (white color) */
-        color: #FFFFFF;
 
-        .info {
+        .info-about {
+            padding: 0px 251px;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 100%;
+            height: 59px;
+            background: #0C4B35;
+            /* Card / Paragraph Font */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            /* Main / BG (white color) */
+            color: #FFFFFF;
 
-            .email {
+            .info {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
 
-                img {
-                    margin-right: 10px;
+                .email {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    p {
+                        margin-right: 30px;
+                    }
                 }
 
-                p {
-                    margin-right: 30px;
+                .phone {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    p {
+                        margin-right: 30px;
+                    }
+                }
+
+                .location {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    p {
+                        margin-right: 30px;
+                    }
                 }
             }
 
-            .phone {
+            .language {
                 display: flex;
                 align-items: center;
 
-                img {
-                    margin-right: 10px;
-                }
-
                 p {
-                    margin-right: 30px;
-                }
-            }
-
-            .location {
-                display: flex;
-                align-items: center;
-
-                img {
-                    margin-right: 10px;
-                }
-
-                p {
-                    margin-right: 30px;
+                    margin-right: 5px;
                 }
             }
         }
 
-        .language {
-            display: flex;
-            align-items: center;
-
-            p {
-                margin-right: 5px;
-            }
+        .nav {
+            
         }
-
     }
 }
 
@@ -94,7 +101,9 @@
         max-width: 1500px;
 
         .header {
-            padding: 15px;
+            .info-about {
+                padding: 15px;
+            }
         }
     }
 }
@@ -104,10 +113,12 @@
         max-width: 992px;
 
         .header {
-            padding: 15px;
-            font-weight: 200;
-            font-size: 10px;
+            .info-about {
+                padding: 15px;
+                font-weight: 200;
+                font-size: 10px;
 
+            }
         }
     }
 }
@@ -117,22 +128,24 @@
         max-width: 768px;
 
         .header {
-            padding: 15px;
-            font-weight: 200;
-            font-size: 10px;
+            .info-about {
+                padding: 15px;
+                font-weight: 200;
+                font-size: 10px;
 
-            .info {
-                img {
-                    margin-left: 50px;
+                .info {
+                    img {
+                        margin-left: 50px;
+                    }
+
+                    p {
+                        display: none;
+                    }
                 }
 
-                p {
-                    display: none;
+                .language {
+                    margin-right: 50px;
                 }
-            }
-
-            .language {
-                margin-right: 50px;
             }
         }
     }
@@ -143,20 +156,22 @@
         max-width: 375px;
 
         .header {
-            padding: 0 15px;
+            .info-about {
+                padding: 0 15px;
 
-            .info {
-                img {
+                .info {
+                    img {
+                        margin: 20px;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+
+                .language {
                     margin: 20px;
                 }
-
-                p {
-                    display: none;
-                }
-            }
-
-            .language {
-                margin: 20px;
             }
         }
     }
