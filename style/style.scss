@@ -22,7 +22,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 25px;
         /* Main / BG (white color) */
         color: #FFFFFF;
 
@@ -90,4 +89,75 @@
 // Small ≥576px	540px
 // Medium ≥768px	720px
 // Large ≥992px960px
-// @media screen and (max-width: 375px) 
+@media screen and (max-width: 1500px) {
+    .container {
+        max-width: 1500px;
+
+        .header {
+            padding: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 992px;
+
+        .header {
+            padding: 15px;
+            font-weight: 200;
+            font-size: 10px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+
+        .header {
+            padding: 15px;
+            font-weight: 200;
+            font-size: 10px;
+
+            .info {
+                img {
+                    margin-left: 50px;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+
+            .language {
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+
+        .header {
+            padding: 0 15px;
+
+            .info {
+                img {
+                    margin: 20px;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+
+            .language {
+                margin: 20px;
+            }
+        }
+    }
+}

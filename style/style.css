@@ -21,7 +21,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 25px;
   /* Main / BG (white color) */
   color: #FFFFFF;
 }
@@ -66,4 +65,59 @@
 }
 .container .header .language p {
   margin-right: 5px;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    max-width: 1500px;
+  }
+  .container .header {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+  .container .header {
+    padding: 15px;
+    font-weight: 200;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .container .header {
+    padding: 15px;
+    font-weight: 200;
+    font-size: 10px;
+  }
+  .container .header .info img {
+    margin-left: 50px;
+  }
+  .container .header .info p {
+    display: none;
+  }
+  .container .header .language {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .container .header {
+    padding: 0 15px;
+  }
+  .container .header .info img {
+    margin: 20px;
+  }
+  .container .header .info p {
+    display: none;
+  }
+  .container .header .language {
+    margin: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
