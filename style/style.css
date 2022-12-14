@@ -136,6 +136,19 @@
 .container .header .nav .gamburger-menu-mobile {
   display: none;
 }
+.container .main {
+  height: 719px;
+  background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+}
+.container .main img {
+  position: absolute;
+  top: 380px;
+  width: 197px;
+  height: 278px;
+}
+.container .main .wraper {
+  padding: 0px 251px;
+}
 
 @media screen and (max-width: 375px) {
   .container {

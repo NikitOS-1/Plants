@@ -164,6 +164,22 @@
             }
         }
     }
+
+    .main {
+        img {
+            position: absolute;
+            top: 380px;
+            width: 197px;
+            height: 278px;
+        }
+
+        height: 719px;
+        background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+
+        .wraper {
+            padding: 0px 251px;
+        }
+    }
 }
 
 
@@ -235,5 +251,7 @@
                 }
             }
         }
+
+        .main {}
     }
 }
