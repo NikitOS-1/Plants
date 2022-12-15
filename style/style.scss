@@ -314,8 +314,7 @@
                             position: absolute;
 
                             left: 0px;
-                            // top: 0px;
-                            bottom: -240px;
+                            bottom: -185px;
                         }
 
                         .bg-count {
@@ -387,6 +386,100 @@
                     width: 1013px;
                     height: 673px;
                     background: #C4C4C4;
+                }
+            }
+        }
+
+        .row-2 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 70px;
+
+
+            h1 {
+                /* H3/Extra Bold */
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 45px;
+                line-height: 61px;
+                /* Typography/Heading Font Color */
+                color: #212529;
+
+                span {
+                    color: #00730C;
+                }
+            }
+
+            p {
+                /* H6/Regular */
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: center;
+                /* Typography / Paragraph Color */
+                color: #676767;
+                width: 1136px;
+                height: 60px;
+            }
+
+            .element {
+                margin-top: 50px;
+                margin-bottom: 100px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                .item {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 330px;
+                    height: 366px;
+                    background: linear-gradient(172.29deg, #FFFFFF -10.79%, #FFFFFF 94.04%);
+                    /* Normal Shadow */
+                    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+                    border-radius: 10px;
+                    background-image: url('../img/main/row-2/XMLID_46_.png');
+                    background-repeat: no-repeat;
+                    background-position-x: center;
+                    background-position-y: 25px;
+
+                    img {
+                        width: 70px;
+                        height: 60px;
+                        margin-bottom: 40px;
+                    }
+
+                    h4 {
+                        width: 153px;
+                        height: 33px;
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 33px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #212529;
+                    }
+
+                    p {
+                        margin-top: 10px;
+                        width: 243px;
+                        height: 84px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        text-align: center;
+                        color: #676767;
+                    }
                 }
             }
         }
