@@ -5,12 +5,15 @@
   padding: 0px;
 }
 
+.row {
+  padding: 0px 251px;
+}
+
 .container {
   max-width: 1920px;
   margin: 0 auto;
 }
 .container .header .info-about {
-  padding: 0px 251px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,7 +71,6 @@
   margin-right: 5px;
 }
 .container .header .nav {
-  padding: 0px 251px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,14 +142,163 @@
   height: 719px;
   background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
 }
-.container .main img {
+.container .main .left-img img {
   position: absolute;
-  top: 380px;
+  top: 580px;
   width: 197px;
   height: 278px;
 }
 .container .main .wraper {
-  padding: 0px 251px;
+  display: flex;
+}
+.container .main .wraper .description .h6-with-img {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+}
+.container .main .wraper .description .h6-with-img img {
+  width: 24px;
+  height: 20px;
+  position: relative;
+  margin-right: 5px;
+}
+.container .main .wraper .description .h6-with-img h6 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-transform: capitalize;
+  /* Typography/Heading Font Color */
+  color: #212529;
+}
+.container .main .wraper .description h1 {
+  margin: 20px 0px;
+  /* H2/Extra Bold */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 79px;
+  /* Typography/Heading Font Color */
+  color: #212529;
+}
+.container .main .wraper .description h1 span {
+  color: #00730C;
+}
+.container .main .wraper .description p {
+  margin-bottom: 50px;
+  /* H6/Regular */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* Typography / Paragraph Color */
+  color: #676767;
+}
+.container .main .wraper .description .btn-s {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.container .main .wraper .description .btn-s button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 35px;
+  width: 175px;
+  height: 50px;
+  /* Main/1 Color */
+  background: #00730C;
+  border-radius: 5px;
+  border: none;
+  margin-right: 30px;
+}
+.container .main .wraper .description .btn-s button a {
+  /* Button/Button Text */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  /* identical to box height, or 133% */
+  text-transform: capitalize;
+  /* Typography/Font White Color */
+  color: #FFFFFF;
+}
+.container .main .wraper .description .btn-s .btn-see-how {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .main .wraper .description .btn-s .btn-see-how a {
+  /* H6/Semibold */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* Typography / Paragraph Color */
+  color: #676767;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.container .main .wraper .description .counter {
+  display: flex;
+  align-items: center;
+}
+.container .main .wraper .description .counter .bg-count {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 7px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+  border-radius: 35px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* Typography/Heading Font Color */
+  color: #212529;
+}
+.container .main .wraper .description .counter .name-count {
+  width: 89px;
+  height: 40px;
+  /* Button/Button Text */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  /* Typography/Heading Font Color */
+  color: #212529;
+}
+.container .main .wraper .description .counter .customrs {
+  display: flex;
+  align-items: center;
+}
+.container .main .wraper .description .counter .created {
+  display: flex;
+  align-items: center;
+}
+.container .main .wraper .description .counter .members {
+  display: flex;
+  align-items: center;
+}
+.container .main .wraper .description-img {
+  margin-top: 46px;
+  position: relative;
+  width: 1013px;
+  height: 673px;
+  background: #C4C4C4;
 }
 
 @media screen and (max-width: 375px) {
