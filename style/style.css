@@ -528,7 +528,6 @@
   line-height: 24px;
   color: #FFFFFF;
 }
-
 @media screen and (max-width: 375px) {
   .row {
     padding: 0px;
