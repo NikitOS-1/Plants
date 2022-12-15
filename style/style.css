@@ -262,7 +262,7 @@
   display: none;
   position: absolute;
   left: 0px;
-  bottom: -185px;
+  bottom: -255px;
 }
 .container .main .row-1 .wraper .description .counter .bg-count {
   margin-right: 10px;
@@ -424,6 +424,108 @@
   color: #FFFFFF;
 }
 .container .main .row-2 .element .item:hover p {
+  color: #FFFFFF;
+}
+.container .main .row-3 .left-img img {
+  position: absolute;
+  bottom: -1390px;
+  width: 230px;
+  height: 340px;
+}
+.container .main .row-3 .wrap {
+  width: 100%;
+  display: flex;
+}
+.container .main .row-3 .wrap .pictures {
+  width: 50%;
+}
+.container .main .row-3 .wrap .pictures .level-1 {
+  width: 450px;
+  height: 706px;
+  background: #00730C;
+  z-index: 1;
+}
+.container .main .row-3 .wrap .pictures .level-2 {
+  position: relative;
+  bottom: 670px;
+  left: 24px;
+  width: 601px;
+  height: 740px;
+  background: #C4C4C4;
+  z-index: 2;
+  position: relative;
+}
+.container .main .row-3 .wrap .pictures .level-3 {
+  position: relative;
+  bottom: 911px;
+  left: 246px;
+  width: 456px;
+  height: 356px;
+  background: #C4C4C4;
+  border: 15px solid #FFFFFF;
+  border-radius: 10px;
+  z-index: 3;
+}
+.container .main .row-3 .wrap .description {
+  width: 50%;
+}
+.container .main .row-3 .wrap .description h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-size: 45px;
+  line-height: 61px;
+  font-weight: 800;
+}
+.container .main .row-3 .wrap .description h1 span {
+  color: #00730C;
+}
+.container .main .row-3 .wrap .description p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+}
+.container .main .row-3 .wrap .description .items {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .main .row-3 .wrap .description .items .item {
+  width: 330px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.container .main .row-3 .wrap .description .items .item img {
+  margin: 20px;
+}
+.container .main .row-3 .wrap .description .items .item p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #212529;
+}
+.container .main .row-3 .wrap .description button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 50px;
+  background: #00730C;
+  border-radius: 5px;
+  border: none;
+}
+.container .main .row-3 .wrap .description button a {
+  text-decoration: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
   color: #FFFFFF;
 }
 
@@ -632,5 +734,85 @@
   }
   .container .main .row-2 .element .item:hover p {
     color: #FFFFFF;
+  }
+  .container .main .row-3 .left-img {
+    display: none;
+  }
+  .container .main .row-3 .wrap {
+    flex-direction: column;
+  }
+  .container .main .row-3 .wrap .pictures {
+    padding: 0 15px;
+    width: 100%;
+    height: 480px;
+  }
+  .container .main .row-3 .wrap .pictures .level-1 {
+    position: relative;
+    width: 188px;
+    height: 293px;
+  }
+  .container .main .row-3 .wrap .pictures .level-2 {
+    position: relative;
+    width: 291px;
+    height: 358px;
+    bottom: 280px;
+    left: 10px;
+  }
+  .container .main .row-3 .wrap .pictures .level-3 {
+    border: 9px solid #FFFFFF;
+    position: relative;
+    width: 241px;
+    height: 162px;
+    bottom: 350px;
+    left: 100px;
+  }
+  .container .main .row-3 .wrap .description {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .main .row-3 .wrap .description h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 15px;
+  }
+  .container .main .row-3 .wrap .description p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .container .main .row-3 .wrap .description .items {
+    margin: 40px 0px;
+    gap: 20px;
+  }
+  .container .main .row-3 .wrap .description .items .item {
+    width: 162px;
+    height: 94px;
+    flex-direction: column;
+    /* Main/BG White Color */
+    background: #FFFFFF;
+    /* Normal Shadow */
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    border-radius: 5px;
+  }
+  .container .main .row-3 .wrap .description .items .item img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  .container .main .row-3 .wrap .description .items .item p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .container .main .row-3 .wrap .description button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
