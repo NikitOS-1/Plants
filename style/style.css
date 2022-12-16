@@ -811,6 +811,9 @@
   }
   .container .main .row-3 .wrap {
     flex-direction: column;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   .container .main .row-3 .wrap .pictures {
     padding: 0 15px;
@@ -885,5 +888,49 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 50px;
+  }
+  .container .main .row-4 .img-left {
+    display: none;
+  }
+  .container .main .row-4 .img-right {
+    display: none;
+  }
+  .container .main .row-4 .wrap {
+    padding: 0 15px;
+    flex-direction: column-reverse;
+  }
+  .container .main .row-4 .wrap .description {
+    text-align: center;
+    width: 100%;
+  }
+  .container .main .row-4 .wrap .description h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .container .main .row-4 .wrap .description p {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .container .main .row-4 .wrap .description .items {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .container .main .row-4 .wrap .description .items .item img {
+    width: 30px;
+    height: 30px;
+  }
+  .container .main .row-4 .wrap .description .items .item p {
+    margin: 10px;
+  }
+  .container .main .row-4 .wrap .description button {
+    margin-bottom: 50px;
+  }
+  .container .main .row-4 .wrap .picture {
+    width: 345px;
+    height: 217px;
+    margin: 50px 0 30px 0;
   }
 }/*# sourceMappingURL=style.css.map */

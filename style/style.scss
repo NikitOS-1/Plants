@@ -993,6 +993,7 @@
 
                 .wrap {
                     flex-direction: column;
+                    height: max-content;
 
                     .pictures {
                         padding: 0 15px;
@@ -1079,6 +1080,67 @@
                             line-height: 20px;
                             margin-bottom: 50px;
                         }
+                    }
+                }
+            }
+
+            .row-4 {
+                .img-left {
+                    display: none;
+                }
+
+                .img-right {
+                    display: none;
+                }
+
+                .wrap {
+                    padding: 0 15px;
+                    flex-direction: column-reverse;
+
+                    .description {
+                        text-align: center;
+                        width: 100%;
+
+                        h1 {
+                            margin: 0px 0px 20px 0px;
+                            font-size: 28px;
+                            line-height: 38px;
+                        }
+
+                        p {
+                            margin-bottom: 40px;
+                            font-size: 14px;
+                            line-height: 22px;
+                            text-align: center;
+                        }
+
+                        .items {
+                            margin: 0px;
+                            margin-bottom: 30px;
+
+                            .item {
+
+                                img {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+
+                                p {
+                                    margin: 10px;
+                                }
+                            }
+                        }
+
+                        button {
+                            margin-bottom: 50px;
+                        }
+                    }
+
+                    .picture {
+
+                        width: 345px;
+                        height: 217px;
+                        margin: 50px 0 30px 0;
                     }
                 }
             }
